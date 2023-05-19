@@ -4,7 +4,7 @@ on:
   schedule:
     # 毎週金曜日の 09:00 に起動
     # (UTC の 00:00 は JST の 09:00)
-    - cron: '0 3 * * FRI'
+    - cron: '0 0 * * FRI'
 
 permissions:
   contents: read
